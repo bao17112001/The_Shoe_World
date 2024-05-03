@@ -1,0 +1,33 @@
+{
+  "name": "the-shoe-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "sass --watch src/resources/scss/:src/public/css/ --style compressed",
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bao17112001/The_Shoe_World.git"
+  },
+  "keywords": [
+    "The_Shoe_World"
+  ],
+  "author": "BaoVG, Dong Anh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bao17112001/The_Shoe_World/issues"
+  },
+  "homepage": "https://github.com/bao17112001/The_Shoe_World#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "sass": "^1.76.0"
+  }
+}

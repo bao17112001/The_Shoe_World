@@ -1,0 +1,194 @@
+@import "variables.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "home.scss";
+@import "slider.scss";
+@import "products.scss";
+
+/* Reset CSS */
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/*  Global variables */
+html {
+  font: 62.5%/1.6 "Josefin Sans", sans-serif; /* font-size, line-height, font-family */
+  box-sizing: border-box;
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+  /* Điều chỉnh các phần tử cho giao diện trên điện thoại di động */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Điều chỉnh các phần tử cho giao diện trên máy tính bảng */
+}
+
+@media (min-width: 1024px) and (max-width: 1336px) {
+  /* Điều chỉnh các phần tử cho giao diện trên máy tính cá nhân */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.open-grid {
+  display: grid !important;
+}
+
+.active {
+  display: block !important;
+}
+
+.close {
+  display: none !important;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.start-0 {
+  left: 0;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.end-0 {
+  right: 0;
+}
+
+.radius-2 {
+  border-radius: 2px;
+}
+
+//background-color
+.base {
+  background-color: $base;
+}
+
+.white {
+  background-color: $white;
+}
+
+//color
+.white-text {
+  color: white;
+}
+
+.black-color {
+  color: black;
+}
+
+// spacing
+
+.m-5 {
+  margin: 0.5rem;
+}
+
+.mt-5 {
+  margin-top: 0.5rem;
+}
+
+.p-5 {
+  padding: 0.5rem;
+}
+
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.p-10 {
+  padding: 1rem;
+}
+
+.pt-10 {
+  padding-top: 1rem;
+}
+
+.pb-10 {
+  padding-bottom: 1rem;
+}
+
+.pr-10 {
+  padding-right: 1rem;
+}
+
+.pl-10 {
+  padding-left: 1rem;
+}
+
+.pt-20 {
+  padding-top: 2rem;
+}
+
+.pb-20 {
+  padding-bottom: 2rem;
+}
+
+.pl-20 {
+  padding-left: 2rem;
+}
+
+.pr-20 {
+  padding-right: 2rem;
+}
+
+.mt-20 {
+  margin-top: 2rem;
+}
+
+.mr-20 {
+  margin-right: 2rem;
+}
+
+.ml-20 {
+  margin-left: 2rem;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.ml-40 {
+  margin-left: 4rem;
+}

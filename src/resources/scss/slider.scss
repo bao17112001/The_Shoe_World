@@ -1,0 +1,23 @@
+.slider {
+  .arrow-left {
+    left: 2%;
+    cursor: pointer;
+
+    &:hover .prev {
+      fill: $primary;
+    }
+  }
+
+  .arrow-right {
+    right: 2%;
+    cursor: pointer;
+
+    &:hover .next {
+      fill: $primary;
+    }
+  }
+
+  .slider--img {
+    display: none;
+  }
+}
